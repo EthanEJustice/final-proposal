@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<!-- 
+        Author: Ethan Justice & Jesus Gonzalez
+-->       
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, intiial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="final-project.css">
+</head>  
+<body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('HackLife')">Creator</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Most Recent Update')">Updates</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('About')">About HackLife</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Features')">Features</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Learn')">Showing Off</a>
+ </div>
+
+ <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+ }
+
+    function closeNav() {
+     document.getElementById("mySidenav").style.width = "0";
+ }
+</script>
+
+<script>
+     function openTab(tabName) {
+     var i;
+     var x = document.getElementsByClassName("tab");
+     for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
+}
+</script>
+
+
+<!--Creator Tab-->
+<div id="HackLife" class="w3-container tab">
+<h1 title="HackLife">
+    <Strong>HackLife</Strong>
+</h1>
+<pre style="color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;text-align: center;" >
+    By: Ethan Justice & Jesus Gonzalez
+            
+    Team: 3L1T3 HACK3R5
+</pre>
+</div>
+<!--End Creator Tab-->
+
+
+<!--Updates Tab-->
+<div id="Most Recent Update" class="w3-container tab" style="display:none;">
+<h1>Update V1</h1>
+<pre style="color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;text-align: center;">
+    Sprint: 5
+    Date: 11/2/2020
+</pre>
+</div>
+<!--End Updates Tab-->
+
+
+<!--About Tab-->
+<div id="About" class="w3-container tab" style="display:none;">
+<h1>About "HackLife"</h1>
+<p style="text-align:center; color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;">
+    HackLife is going to be a website all about the best life hacks. It will contain numerous tabs named by category <br> of the life hack such as "Kitchen". The entire purpose of the website
+    is to make peoples lives a little bit better and hassle free.<br> I personally am pretty lazy and love finding better more efficient ways to do things, and I am hoping HackLife will help other people<br>
+    by giving them good life hacks that actually work.
+</p>
+</div>
+<!--End About Tab-->
+
+<!--Features Tab-->
+<div id="Features" class="w3-container tab" style="display:none;">
+<h2>Features To Be Implemented</h2>
+<ul style="list-style-type: square;color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;padding-left: 13%;">
+    <li>Sidebar Categories based off the life hack topic</li>
+    <li>The Best life hacks around town</li>
+    <li>Massive Ads that block the whole screen</li>
+</ul>
+
+<h3>To be Added If There Was Time</h3>
+<ul style="list-style-type: square;color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;padding-left: 13%;">
+    <li>Cool Gifs to explain the lifehacks</li>
+    <li>Subscription system to keep ads away</li>
+</ul>
+</div>
+<!--End Features Tab-->
+
+<!--Start Technical Learning Tab-->
+<div id="Learn" class="w3-container tab" style="display:none;">
+<h2>Showing What We Learned</h2>
+<p style="text-align:left; color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;padding-left: 11%;">
+    This will eventually have screenshots from HackLife showing that we learned how to code basic HTML in this class</p>
+
+<h3>What we googled</h3>
+<p style="text-align:left; color: white;font-size: x-large;font-family: 'Times New Roman', Times, serif;padding-left: 11%;">
+    This will eventually have screenshots of the code from HackLife showing we learned more about Script and how to make tabs better. </p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
