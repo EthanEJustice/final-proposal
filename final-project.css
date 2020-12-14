@@ -1,0 +1,64 @@
+body {background-color: #20201E ;
+
+}
+
+h1 {color: whitesmoke;
+text-align: center;
+background-color: turquoise;
+padding: 30px ;
+font-size: xx-large;
+}
+
+
+h2 {color: whitesmoke;
+  text-align: left;
+  background-color: turquoise;
+  padding: 30px ;
+  font-size: xx-large;
+  padding-left: 13%;
+  }
+  
+h3 {color: whitesmoke;
+  text-align: left;
+  background-color: lightgreen;
+  padding: 30px ;
+  font-size: xx-large;
+  padding-left: 13%;
+  }
+  
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #373737;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 1px 26px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(238, 228, 238, 0.952);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #5a9deb;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: violet;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
